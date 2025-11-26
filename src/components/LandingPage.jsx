@@ -3,7 +3,7 @@ import { Github, Youtube, Chrome, Zap, MessageSquare, Database, ArrowRight } fro
 
 export default function LandingPage() {
   const [demoOpen, setDemoOpen] = useState(false);
-  const demoSrc = '/public/youtube_chatbot_1.mp4';
+  const demoSrc = '/youtube_chatbot_1.mp4';
 
   return (
     <div className="landing-wrapper">
